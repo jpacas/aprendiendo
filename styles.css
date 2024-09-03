@@ -6,3 +6,38 @@
 h1 {
   color: blue;
 }
+
+header {
+  width: 90%;
+  max-width: 1268px;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: large;
+}
+
+nav > ul {
+  display: flex;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 2rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: pink;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+}
